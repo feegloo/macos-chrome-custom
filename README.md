@@ -10,7 +10,7 @@ By default app use flag `--disable-features=GlobalMediaControls` to disable anno
 
 App is installed at `/Applications/Chrome.app/`
 
-You need to allow macOS to run "untrusted applications" in System Preferences.
+You need to allow macOS to run app from "unidentified developer" in System Preferences.
 
 ### Code
 
