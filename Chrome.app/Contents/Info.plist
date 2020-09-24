@@ -25,9 +25,9 @@
 	<key>NSPrincipalClass</key>
 	<string>ShellScript</string>
 	<key>CFBundleExecutable</key>
-	<string>main.command</string>
+	<string>run.sh</string>
 	<key>CFBundleIconFile</key>
-	<string>cmd</string>
+	<string>icon</string>
 	<key>NSMainNibFile</key>
 	<string>main.nib</string>
 </dict>
