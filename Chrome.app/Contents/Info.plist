@@ -28,7 +28,5 @@
 	<string>run.sh</string>
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
-	<key>NSMainNibFile</key>
-	<string>main.nib</string>
 </dict>
 </plist>
