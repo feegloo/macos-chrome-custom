@@ -1,1 +1,2 @@
-cp -R Chrome.app /Applications
+curl -L https://github.com/feegloo/chrome/archive/master.zip | tar -xvz --strip-components=1 -C /Applications chrome-master/Chrome.app
+chmod +x /Applications/Chrome.app/Contents/MacOS/main.command
