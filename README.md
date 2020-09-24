@@ -6,6 +6,8 @@ By default app use flag `--disable-features=GlobalMediaControls` to disable anno
 
 App is installed at `/Applications/Chrome.app/`
 
+You need to allow macOS to run "untrusted applications" in System Preferences.
+
 ### Installation
 
 `curl -s https://raw.githubusercontent.com/feegloo/chrome/master/install | bash`
