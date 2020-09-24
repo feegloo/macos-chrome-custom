@@ -4,6 +4,8 @@ Google Chrome needs to be installed separately. This app doesn't change anything
 
 By default app use flag `--disable-features=GlobalMediaControls` to disable annoying extension which controls running music, but you can modify it any way you want. See more: [main.command](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/main.command)
 
+App is installed at `/Applications/Chrome.app/`
+
 ### Installation
 
 `curl -s https://raw.githubusercontent.com/feegloo/chrome/master/install | bash`
