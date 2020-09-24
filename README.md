@@ -8,7 +8,7 @@ By default app use flag `--disable-features=GlobalMediaControls` to disable anno
 
 `curl -s https://raw.githubusercontent.com/feegloo/chrome/master/install | bash`
 
-Open app, then allow macOS to run app from "unidentified developer" in System Preferences / Security & Privacy / General
+Open "Chrome" app, then allow macOS to run app from "unidentified developer" in System Preferences / Security & Privacy / General
 
 ![](https://www.macworld.co.uk/cmsdata/features/3669596/how_to_open_mac_app_unidentified_developer_780.jpg)
 
