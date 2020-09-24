@@ -2,7 +2,7 @@ Instead of running Google Chrome in terminal with custom flags, you can install 
 
 Google Chrome needs to be installed separately. This app doesn't change anything about Google Chrome, everything works the same (settings, updates, etc.), except Google Chrome is run with custom flags.
 
-By default app use flag `--disable-features=GlobalMediaControls` to disable annoying extension which controls running music, but you can modify it any way you want. See more: [main.command](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/main.command)
+By default app use flag `--disable-features=GlobalMediaControls` to disable annoying extension which controls running music, but you can modify flags any way you want. See: [run.sh](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/run.sh)
 
 ### Installation
 
@@ -15,8 +15,8 @@ Open "Chrome" app, then allow macOS to run app from "unidentified developer" in 
 ### Code
 
 App contains only 3 files:
-- [main.command](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/main.command) shell script executed when you run app
-- [cmd.icns](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Resources/cmd.icns) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; app icon
+- [run.sh](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/run.sh) shell script executed when you run app
+- [icon.icns](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Resources/icon.icns) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; app icon
 - [Info.plist](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Info.plist) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; app descriptor, containing mostly dummy info
 
 App is installed at `/Applications/Chrome.app/`, but you can rename `Chrome.app` in this repo to any app name.
