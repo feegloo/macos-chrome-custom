@@ -11,3 +11,12 @@ By default app use flag `--disable-features=GlobalMediaControls` to disable anno
 App is installed at `/Applications/Chrome.app/`
 
 You need to allow macOS to run "untrusted applications" in System Preferences.
+
+### Code
+
+App contains only 3 files:
+- [main.command](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/main.command) shell script executed when you run app
+- [cmd.icns](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Resources/cmd.icns) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; app icon
+- [Info.plist](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Info.plist) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; app descriptor, containing mostly dummy info
+
+Treat it like a template for macOS app which runs Shell script.
