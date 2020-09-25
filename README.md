@@ -19,6 +19,6 @@ App contains only 3 files:
 - [icon.icns](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Resources/icon.icns) &nbsp;&nbsp;&nbsp; app icon
 - [Info.plist](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Info.plist) &nbsp;&nbsp;&nbsp;&nbsp; app descriptor, containing mostly dummy info
 
-App is installed at `/Applications/Chrome.app/`, but you can rename `Chrome.app` to any name.
+App is installed at `/Applications/Chrome.app/`, but you can rename `Chrome` to any name.
 
 Treat it like a template for macOS app which runs Shell script.
