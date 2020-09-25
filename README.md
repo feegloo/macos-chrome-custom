@@ -15,7 +15,7 @@ Open "Chrome" app, then allow macOS to run app from "unidentified developer" in 
 ### Code
 
 App contains only 3 files:
-- [run.sh](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/run.sh) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; shell script executed when you run app
+- [run.sh](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/run.sh) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; shell script executed when app is run
 - [icon.icns](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Resources/icon.icns) &nbsp;&nbsp;&nbsp; app icon
 - [Info.plist](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Info.plist) &nbsp;&nbsp;&nbsp;&nbsp; app descriptor, containing mostly dummy info
 
