@@ -1,4 +1,4 @@
-Tired of running Google Chrome with custom flags **in terminal**? 
+Tired of running Google Chrome with arguments **in terminal**? 
 
 Install this "Chrome" app (and add to Dock if you want) and use instead of Google Chrome.
 
