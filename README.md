@@ -8,7 +8,9 @@ By default app use flag `--disable-features=GlobalMediaControls` to disable anno
 
 ### Installation
 
-`curl -s https://raw.githubusercontent.com/feegloo/chrome/master/install | bash`
+```
+curl -s https://raw.githubusercontent.com/feegloo/chrome/master/install | bash
+```
 
 Open "Chrome" app, then allow macOS to run app from "unidentified developer" in System Preferences / Security & Privacy / General
 
