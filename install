@@ -1,3 +1,3 @@
-curl -s -L https://github.com/feegloo/chrome/archive/master.zip | tar -xz --strip-components=1 -C /Applications chrome-master/Chrome.app
+curl -s -L https://github.com/feegloo/macos-chrome-custom/archive/master.zip | tar -xz --strip-components=1 -C /Applications macos-chrome-custom-master/Chrome.app
 chmod +x /Applications/Chrome.app/Contents/MacOS/run.sh
 echo "Chrome installed"
