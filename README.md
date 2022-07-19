@@ -9,7 +9,7 @@ By default app use flag `--disable-features=GlobalMediaControls` to disable anno
 ### Installation
 
 ```
-curl -s https://raw.githubusercontent.com/feegloo/chrome/master/install | bash
+curl -s https://raw.githubusercontent.com/feegloo/macos-chrome-custom/master/install | bash
 ```
 
 Open "Chrome" app, then allow macOS to run app from "unidentified developer" in System Preferences / Security & Privacy / General
@@ -19,9 +19,9 @@ Open "Chrome" app, then allow macOS to run app from "unidentified developer" in 
 ### Code
 
 App contains only 3 files:
-- [run.sh](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/MacOS/run.sh) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; shell script executed when app is run
-- [icon.icns](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Resources/icon.icns) &nbsp;&nbsp;&nbsp; app icon
-- [Info.plist](https://github.com/feegloo/chrome/blob/master/Chrome.app/Contents/Info.plist) &nbsp;&nbsp;&nbsp;&nbsp; app descriptor, containing mostly dummy info
+- [run.sh](https://github.com/feegloo/macos-chrome-custom/blob/master/Chrome.app/Contents/MacOS/run.sh) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; shell script executed when app is run
+- [icon.icns](https://github.com/feegloo/macos-chrome-custom/blob/master/Chrome.app/Contents/Resources/icon.icns) &nbsp;&nbsp;&nbsp; app icon
+- [Info.plist](https://github.com/feegloo/macos-chrome-custom/blob/master/Chrome.app/Contents/Info.plist) &nbsp;&nbsp;&nbsp;&nbsp; app descriptor, containing mostly dummy info
 
 App is installed at `/Applications/Chrome.app/`, but you can rename `Chrome` to any name.
 
